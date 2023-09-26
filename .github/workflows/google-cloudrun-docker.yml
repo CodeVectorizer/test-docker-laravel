@@ -118,7 +118,7 @@ jobs:
           instance_name: ${{ env.INSTANCE }} 
           zone: ${{ env.ZONE }}
           ssh_private_key: ${{ secrets.GCP_SSH_PRIVATE_KEY }}
-          command: 'ls -la'
+          command: "ls -la"
 
       # test ssh connection
       - name: Run a simple command
