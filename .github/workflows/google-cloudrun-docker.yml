@@ -51,7 +51,7 @@ on:
 env:
   PROJECT_ID: complete-land-398307 # TODO: update Google Cloud project id
   GAR_LOCATION: us-west2 # TODO: update Artifact Registry location
-  SERVICE: laravel-app/laravel-image # TODO: update Cloud Run service name
+  SERVICE: laravel-app # TODO: update Cloud Run service name
   REGION: us-west2 # TODO: update Cloud Run service region
   INSTANCE: instance-1 # TODO: update Compute Engine instance name
   ZONE: us-west2-b # TODO: update Compute Engine instance zoneJKBB
