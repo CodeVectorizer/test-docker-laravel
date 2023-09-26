@@ -54,7 +54,7 @@ env:
   SERVICE: laravel-app/laralel-image # TODO: update Cloud Run service name
   REGION: us-west2 # TODO: update Cloud Run service region
   INSTANCE: instance-1 # TODO: update Compute Engine instance name
-  ZONE: us-west2-b # TODO: update Compute Engine instance zoneJKBB
+  ZONE: us-west4-b # TODO: update Compute Engine instance zoneJKBB
 
 jobs:
   deploy:
