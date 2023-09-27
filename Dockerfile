@@ -26,5 +26,9 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 RUN chown -R www-data:www-data /var/www/html
 
+RUN chmod +x script-dev.sh
+
+RUN /bin/bash -c "source script-dev.sh"
+
 RUN a2enmod rewrite
 
