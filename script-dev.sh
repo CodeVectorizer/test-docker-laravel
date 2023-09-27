@@ -3,6 +3,9 @@ composer update
 composer install
 composer dump-autoload
 
+cp .env.example .env
+php artisan key:generate
+
 # Laravel
 # php artisan migrate
 # php artisan db:seed
@@ -24,6 +27,9 @@ echo -e "\n\
     | |____| | | |  __/\__ \__ \
     \_____|_| |_|\___||___/___/
     "
+
+
+
 
 
 
