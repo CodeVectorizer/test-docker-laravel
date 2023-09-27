@@ -24,8 +24,6 @@ COPY vhost.conf /etc/apache2/sites-available/000-default.conf
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-RUN /script-dev.sh
-
 RUN chown -R www-data:www-data /var/www/html
 
 RUN a2enmod rewrite
