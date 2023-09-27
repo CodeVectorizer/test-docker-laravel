@@ -87,7 +87,7 @@ jobs:
             docker rm laravel-app
             docker pull ${{ secrets.DOCKER_USERNAME }}/laravel-app:latest
             docker run -d -p 80:80 --name laravel-app ${{ secrets.DOCKER_USERNAME }}/laravel-app:latest
-            docker exec -it laravel-app bash
+            docker exec -i laravel-app bash
             ls -l
             sh script-dev.sh
             exit
