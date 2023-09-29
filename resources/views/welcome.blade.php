@@ -901,7 +901,7 @@
                                 </svg>
                             </div>
 
-                            <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laracasts</h2>
+                            <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Puh sepuh</h2>
 
                             <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Masih Ga pecaya gan</p>
                         </div>
